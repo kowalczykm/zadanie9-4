@@ -8,8 +8,8 @@ function drawTree(height) {
 		for (var j = height - 1; j >= i; j--) {
 			star += ' ';
 		}
-		for (var k = 1; k <= i; k++) {
-			bla += '**';
+		for (var k = 1; k <= (i * 2) - 1; k++) {
+			bla += '*';
 		}
 
 		console.log(star, bla);
